@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
+
+select, button {
+  margin: 10px;
+  padding: 5px 10px;
+  background: #333;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin: 5px 0;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 0 10px;
+}
